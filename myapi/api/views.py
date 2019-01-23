@@ -1,6 +1,5 @@
 from flask import Blueprint
 from flask_restful import Api
-
 from myapi.api.resources import UserResource, UserList, TestResource
 
 

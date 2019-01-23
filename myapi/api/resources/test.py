@@ -1,5 +1,5 @@
 from flask_jwt_extended import jwt_required
-from flask_restplus import Resource
+from flask_restful import Resource
 
 
 class TestResource(Resource):
